@@ -115,6 +115,7 @@ body {
     to {
         transform: translateY(-8px);
     }
+}
 
 .about {
     text-align: center;
