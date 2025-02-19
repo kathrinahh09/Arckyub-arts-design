@@ -102,19 +102,34 @@ body {
 }
 
 .announcement {
+    position: relative;
     width: 90vw;
     max-width: 600px;
-    height: auto;
-    display: block;
     margin: 20px auto;
 }
 
 .announcement img {
     width: 100%;
-    max-width: 100%;
     height: auto;
     display: block;
     object-fit: cover;
+}
+
+.announcement-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    width: 80%;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.announcement-text p {
+    font-size: 1rem;
 }
 
 .merchandise {
@@ -194,17 +209,18 @@ body {
     }
     
     .announcement {
-        width: 90%;
+        width: 95vw;
         max-width: 100%;
-        margin: 10px auto;
     }
 
     .announcement img {
         width: 100%;
-        max-width: 50%;
-        height: auto;
-        display: block;
-        object-fit: contain;
+    }
+
+    .announcement-text {
+        width: 90%;
+        font-size: 0.9rem;
+        padding: 8px;
     }
 
 .merchandise-title {
