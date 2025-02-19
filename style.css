@@ -41,7 +41,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     gap: 10px;
     width: 100%;
     max-width: 600px;
@@ -53,23 +53,23 @@ body {
     height: auto;
 }
 
-.homepage .nav-buttons, 
-.homepage .features {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+.features {
+    display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 10px;
     width: 100%;
     max-width: 600px;
     margin: 10px auto;
 }
 
-.homepage .nav-buttons img, 
-.homepage .features img {
+.features img {
     width: 100px;
+    height: auto;
 }
 
+/* About Section */
 .about {
     text-align: center;
     margin-top: 10px;
@@ -88,60 +88,28 @@ body {
 
 .sample-artworks {
     width: 90vw;
-    max-width: 100%;
+    max-width: 600px;
     height: auto;
     display: block;
     margin: 20px auto;
-    object-fit: fit;
+    object-fit: contain;
 }
 
 .announcement {
     text-align: center;
     margin: 10px auto;
     width: 90%;
-    max-width: 500px;
+    max-width: 600px;
 }
 
 .announcement img {
-    width: 90%;
-    max-width: 500px;
+    width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
 }
 
-.features {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-    gap: 10px;
-    width: 100%;
-    max-width: 600px;
-    margin: 10px auto;
-}
-
-.features img {
-    width: 100px;
-    height: auto;
-}
-
-.staking-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-    gap: 10px;
-    width: 100%;
-    max-width: 600px;
-    margin: 10px auto;
-}
-
-.staking-section img {
-    width: 100px;
-    height: auto;
-}
-
+/* Merchandise */
 .merchandise {
     text-align: center;
     margin-top: 20px;
@@ -178,24 +146,45 @@ body {
     }
 
     .nav-buttons a img,
-    .features img,
-    .staking-section img {
+    .features img {
         width: 90px;
     }
 
-    .announcement {
-        width: 90%;
-        margin: 10px auto;
-    }
-
-    .announcement img {
+    .announcement,
+    .sample-artworks {
         width: 95%;
         max-width: 100%;
-        padding: 5px;
     }
 
+    .announcement img,
+    .sample-artworks img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .homepage .nav-buttons, 
+    .homepage .features {
+        flex-wrap: wrap;
+    }
+
+    .nav-buttons a img,
+    .features img {
+        width: 80px;
+    }
+
+    .announcement,
     .sample-artworks {
-        width: 95vw;
-        max-width: 80%;
+        width: 98%;
+        max-width: 100%;
+    }
+
+    .announcement img,
+    .sample-artworks img {
+        width: 100%;
+    }
+
+    .merchandise-title {
+        width: 90%;
     }
 }
