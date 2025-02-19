@@ -85,7 +85,22 @@ body {
     margin: 0 auto;
 }
 
-.sample-artworks,
+.sample-artworks {
+    width: 90vw;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    object-fit: contain;
+}
+
+.sample-artworks img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
 .announcement {
     width: 90vw;
     max-width: 600px;
@@ -95,7 +110,6 @@ body {
     object-fit: contain;
 }
 
-.sample-artworks img,
 .announcement img {
     width: 100%;
     height: auto;
@@ -143,8 +157,12 @@ body {
         width: 90px;
     }
 
-    .announcement,
     .sample-artworks {
+        width: 100vw;
+        max-width: 95%;
+    }
+    
+    .announcement {
         width: 100vw;
         max-width: 95%;
     }
@@ -161,12 +179,16 @@ body {
         width: 80px;
     }
 
-    .sample-artworks,
-    .announcement {
+    .sample-artworks {
         width: 100vw;
         max-width: 98%;
     }
 
+    .announcement {
+        width: 100vw;
+        max-width: 98%;
+    }
+    
     .merchandise-title {
         width: 90%;
     }
