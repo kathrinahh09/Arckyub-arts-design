@@ -95,9 +95,25 @@ body {
     object-fit: contain;
 }
 
-.sample-artworks img,
+.sample-artworks img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+.announcement {
+    text-align: center;
+    width: 100vw;
+    max-width: 600px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
 .announcement img {
     width: 100%;
+    max-width: 100%;
     height: auto;
     display: block;
     object-fit: contain;
@@ -133,7 +149,7 @@ body {
     display: block;
 }
 
-
+/* Responsive Styles */
 @media (max-width: 768px) {
     .homepage .nav-buttons, 
     .homepage .features {
@@ -147,12 +163,13 @@ body {
 
     .announcement,
     .sample-artworks {
-        width: 90vw;
+        width: 100vw;
         max-width: 95%;
     }
 
     .announcement img {
         width: 100%;
+        max-width: 100%;
     }
 }
 
@@ -169,12 +186,13 @@ body {
 
     .announcement,
     .sample-artworks {
-        width: 95vw;
+        width: 100vw;
         max-width: 98%;
     }
 
     .announcement img {
         width: 100%;
+        max-width: 100%;
     }
 
     .merchandise-title {
