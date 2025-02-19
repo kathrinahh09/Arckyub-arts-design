@@ -181,17 +181,30 @@ body {
         width: 80px;
     }
 
-    .announcement,
-    .sample-artworks {
+    .announcement {
         width: 100vw;
         max-width: 98%;
+        padding: 0 5px;
+        overflow: hidden;
     }
 
     .announcement img {
         width: 100%;
         max-width: 100%;
+        height: auto;
+        display: block;
+        object-fit: contain;
     }
 
+    .sample-artworks {
+        width: 100vw;
+        max-width: 98%;
+    }
+
+    .merchandise-title {
+        width: 90%;
+    }
+}
     .merchandise-title {
         width: 90%;
     }
