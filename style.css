@@ -201,7 +201,7 @@ body {
 
     .announcement img {
         width: 100%;
-        max-width: 90%;
+        max-width: 50%;
         height: auto;
         display: block;
         object-fit: contain;
