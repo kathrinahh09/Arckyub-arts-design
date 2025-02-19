@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #222;
+    padding: 20px;
+}
+
+.header h1 {
+    font-size: 28px;
+    color: white;
+}
+
+.header span {
+    color: orange;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.nav-buttons a img {
+    width: 150px;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.nav-buttons a img:hover {
+    transform: scale(1.1);
+}
+
+.about {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.about-image {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.2s ease-in-out;
+}
+
+.about-image:hover {
+    transform: scale(1.1);
+}
+
+.sample-artworks {
+    margin-top: 20px;
+}
+
+.artwork-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.artwork-container img {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.artwork-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+}
+
+.announcement-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.features img {
+    width: 200px;
+    height: auto;
+    transition: transform 0.2s ease-in-out;
+}
+
+.features img:hover {
+    transform: scale(1.1);
+}
+
+.merchandise {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.merchandise-title {
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    height: 80px;
+}
+
+.merchandise-placeholder {
+    height: 200px;
+    margin-top: 20px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .nav-buttons {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .artwork-container img {
+        width: 100px;
+    }
+
+    .features {
+        flex-direction: column;
+    }
+
+    .announcement-box {
+        padding: 30px;
+    }
+    
+    .logo {
+        width: 250px;
+        display: block;
+        margin: 0 auto;
+    }    
+}
