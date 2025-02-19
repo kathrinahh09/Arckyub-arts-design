@@ -30,19 +30,23 @@ body {
 
 .nav-buttons {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
+    justify-content: space-between;
     gap: 10px;
-    width: 100%;
-    max-width: 600px;
-    margin: 10px auto;
-}
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+        }
 
 .nav-buttons a img {
-    width: 100px;
-    height: auto;
-}
+    width: 22%;
+    min-width: 80px;
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.2s;
+    width: 100%;
+    border: 5px solid #494949;
+    transition: transform 0.3s ease;
+        }
 
 .about {
     text-align: center;
@@ -146,13 +150,13 @@ body {
 @media (max-width: 768px) {
     .nav-buttons, .features, .staking-section {
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-evenly;
     }
 
     .nav-buttons a img,
     .features img,
     .staking-section img {
-        width: 90px;
+        width: 22%;
     }
 
     .announcement {
