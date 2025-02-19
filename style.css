@@ -86,7 +86,8 @@ body {
     margin: 0 auto;
 }
 
-.sample-artworks {
+.sample-artworks,
+.announcement {
     width: 90vw;
     max-width: 600px;
     height: auto;
@@ -95,18 +96,11 @@ body {
     object-fit: contain;
 }
 
-.announcement {
-    text-align: center;
-    margin: 10px auto;
-    width: 90vw;
-    max-width: 600px;
-}
-
+.sample-artworks img,
 .announcement img {
     width: 100%;
     height: auto;
     display: block;
-    margin: 0 auto;
     object-fit: contain;
 }
 
@@ -150,13 +144,10 @@ body {
         width: 90px;
     }
 
-    .announcement {
+    .announcement,
+    .sample-artworks {
         width: 95%;
         max-width: 100%;
-    }
-
-    .announcement img {
-        width: 100%;
     }
 }
 
@@ -171,13 +162,10 @@ body {
         width: 80px;
     }
 
-    .announcement {
+    .announcement,
+    .sample-artworks {
         width: 98%;
         max-width: 100%;
-    }
-
-    .announcement img {
-        width: 100%;
     }
 
     .merchandise-title {
