@@ -54,7 +54,8 @@ body {
 
 .homepage .nav-buttons, 
 .homepage .features {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -84,7 +85,6 @@ body {
     margin: 0 auto;
 }
 
-/* Sample Artworks */
 .sample-artworks {
     width: 90%;
     max-width: 600px;
@@ -157,7 +157,6 @@ body {
     margin-top: 20px;
 }
 
-/* Footer */
 .footer {
     text-align: center;
     margin-top: 20px;
