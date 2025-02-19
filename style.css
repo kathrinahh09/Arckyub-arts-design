@@ -103,12 +103,10 @@ body {
 }
 
 .announcement {
-    text-align: center;
-    width: 100vw;
+    width: 90vw;
     max-width: 600px;
+    margin: 0 auto;
     overflow: hidden;
-    display: flex;
-    justify-content: center;
 }
 
 .announcement img {
@@ -117,6 +115,7 @@ body {
     height: auto;
     display: block;
     object-fit: contain;
+    overflow: hidden;
 }
 
 .merchandise {
