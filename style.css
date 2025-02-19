@@ -102,10 +102,9 @@ body {
     object-fit: contain;
 }
 
-/* Fixed Announcement Image */
 .announcement {
     text-align: center;
-    width: 100vw; /* Ensures full viewport width */
+    width: 100vw;
     max-width: 600px;
     overflow: hidden;
     display: flex;
@@ -138,7 +137,6 @@ body {
     margin-top: 20px;
 }
 
-/* Footer */
 .footer {
     text-align: center;
     margin-top: 20px;
@@ -150,7 +148,6 @@ body {
     display: block;
 }
 
-/* Responsive Styles */
 @media (max-width: 768px) {
     .homepage .nav-buttons, 
     .homepage .features {
@@ -164,7 +161,7 @@ body {
 
     .announcement,
     .sample-artworks {
-        width: 100vw; /* Ensures no overflow */
+        width: 100vw;
         max-width: 95%;
     }
 
