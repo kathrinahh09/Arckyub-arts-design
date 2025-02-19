@@ -85,7 +85,8 @@ body {
     margin: 0 auto;
 }
 
-.sample-artworks{
+.sample-artworks,
+.announcement {
     width: 90vw;
     max-width: 600px;
     height: auto;
@@ -94,27 +95,12 @@ body {
     object-fit: contain;
 }
 
-.sample-artworks img {
-    width: 100%;
-    height: auto;
-    display: block;
-    object-fit: contain;
-}
-
-.announcement {
-    width: 90vw;
-    max-width: 600px;
-    margin: 0 auto;
-    overflow: hidden;
-}
-
+.sample-artworks img,
 .announcement img {
     width: 100%;
-    max-width: 100%;
     height: auto;
     display: block;
     object-fit: contain;
-    overflow: hidden;
 }
 
 .merchandise {
@@ -162,11 +148,6 @@ body {
         width: 100vw;
         max-width: 95%;
     }
-
-    .announcement img {
-        width: 100%;
-        max-width: 100%;
-    }
 }
 
 @media (max-width: 480px) {
@@ -180,22 +161,8 @@ body {
         width: 80px;
     }
 
+    .sample-artworks,
     .announcement {
-        width: 100vw;
-        max-width: 98%;
-        padding: 0 5px;
-        overflow: hidden;
-    }
-
-    .announcement img {
-        width: 100%;
-        max-width: 100%;
-        height: auto;
-        display: block;
-        object-fit: contain;
-    }
-
-    .sample-artworks {
         width: 100vw;
         max-width: 98%;
     }
