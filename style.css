@@ -194,13 +194,14 @@ body {
     }
     
     .announcement {
-        width: 98%;
+        width: 90%;
         max-width: 100%;
+        margin: 10px auto;
     }
 
     .announcement img {
         width: 100%;
-        max-width: 100%;
+        max-width: 90%;
         height: auto;
         display: block;
         object-fit: contain;
