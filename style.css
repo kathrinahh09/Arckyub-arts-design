@@ -87,8 +87,8 @@ body {
 }
 
 .sample-artworks {
-    width: 100%;
-    max-width: 600px;
+    width: 90%;
+    max-width: 500px;
     height: auto;
     display: block;
     margin: 20px auto;
@@ -98,11 +98,12 @@ body {
     text-align: center;
     margin: 10px auto;
     width: 90%;
-    max-width: 600px;
+    max-width: 500px;
 }
 
 .announcement img {
-    width: 100%;
+    width: 90%;
+    max-width: 500px;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -182,17 +183,18 @@ body {
     }
 
     .announcement {
-        width: 85%;
+        width: 90%;
         margin: 10px auto;
     }
 
     .announcement img {
-        width: 100%;
+        width: 95%;
+        max-width: 100%;
         padding: 5px;
     }
 
     .sample-artworks {
-        width: 90%;
+        width: 95%;
         max-width: 100%;
     }
 }
