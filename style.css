@@ -171,6 +171,25 @@ body {
 
 .announcement-text p {
     font-size: 1rem;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 
+                 0 0 20px rgba(255, 255, 255, 0.6), 
+                 0 0 30px rgba(255, 255, 255, 0.4);
+    animation: glow 1.5s infinite alternate, twinkle 2s infinite;
+}
+
+@keyframes glow {
+    0% { text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 
+                     0 0 20px rgba(255, 255, 255, 0.6), 
+                     0 0 30px rgba(255, 255, 255, 0.4); }
+    100% { text-shadow: 0 0 20px rgba(255, 255, 255, 1), 
+                       0 0 40px rgba(255, 255, 255, 0.8), 
+                       0 0 60px rgba(255, 255, 255, 0.6); }
+}
+
+@keyframes twinkle {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.6; }
 }
 
 .merchandise {
