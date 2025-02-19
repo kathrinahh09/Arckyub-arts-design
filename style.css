@@ -87,11 +87,12 @@ body {
 }
 
 .sample-artworks {
-    width: 90%;
-    max-width: 500px;
+    width: 90vw;
+    max-width: 100%;
     height: auto;
     display: block;
     margin: 20px auto;
+    object-fit: contain;
 }
 
 .announcement {
@@ -194,7 +195,7 @@ body {
     }
 
     .sample-artworks {
-        width: 95%;
+        width: 95vw;
         max-width: 100%;
     }
 }
