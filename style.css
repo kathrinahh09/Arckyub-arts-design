@@ -11,6 +11,7 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 .homepage {
@@ -87,7 +88,7 @@ body {
 
 .sample-artworks {
     width: 100%;
-    max-width: 90vw;
+    max-width: 600px;
     height: auto;
     display: block;
     margin: 20px auto;
@@ -191,7 +192,7 @@ body {
     }
 
     .sample-artworks {
-        max-width: 85vw;
-        padding: 5px;
+        width: 90%;
+        max-width: 100%;
     }
 }
