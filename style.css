@@ -71,7 +71,7 @@ body {
 
 .about {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .about a {
@@ -80,7 +80,7 @@ body {
 
 .about-image {
     width: 150px;
-    height: 50px;
+    height: auto;
     display: block;
     margin: 0 auto;
 }
