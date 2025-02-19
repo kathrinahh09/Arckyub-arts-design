@@ -86,8 +86,8 @@ body {
 }
 
 .sample-artworks {
-    width: 90%;
-    max-width: 600px;
+    width: 100%;
+    max-width: 90vw;
     height: auto;
     display: block;
     margin: 20px auto;
@@ -191,8 +191,7 @@ body {
     }
 
     .sample-artworks {
-        width: 100%;
-        max-width: 95%;
+        max-width: 85vw;
         padding: 5px;
     }
 }
