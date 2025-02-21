@@ -145,32 +145,21 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5px;
-    flex-wrap: nowrap;
-    margin: 0;
-    padding: 5px 0;
-}
-
-.about, .holders-benefits {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    padding: 0;
+    gap: 10px;
+    margin: 20px 0;
 }
 
 .about img, .holders-benefits img {
-    width: 110px;
-    height: 110px;
+    width: 130px;
+    height: 130px;
     object-fit: contain;
     display: block;
-    margin: 0;
     transition: transform 0.2s ease-in-out, filter 0.2s ease-in-out;
 }
 
 .about img:hover, .holders-benefits img:hover {
-    transform: scale(1.02);
-    filter: brightness(1.1);
+    transform: scale(1.05);
+    filter: brightness(1.2);
 }
 
 .sample-artworks {
