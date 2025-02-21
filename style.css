@@ -147,7 +147,7 @@ body {
     align-items: center;
     gap: 20px;
     margin: 8px 0;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .about, .holders-benefits {
@@ -281,8 +281,9 @@ body {
     }
 
     .about-holders-container {
-        flex-direction: column;
-        gap: 15px;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 10px;
     }
 
     .about img, .holders-benefits img {
@@ -321,12 +322,18 @@ body {
     }
 
     .about-holders-container {
-        flex-direction: column;
-        gap: 10px;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .about, .holders-benefits {
+        width: 45%;
     }
 
     .about img, .holders-benefits img {
-        width: 110px;
+        width: 100px;
         height: auto;
     }
     
