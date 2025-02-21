@@ -293,7 +293,8 @@ body {
     }
 
     .about-holders-container {
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: nowrap;
         gap: 5px;
     }
 
