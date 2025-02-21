@@ -145,15 +145,31 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
     margin: 8px 0;
+    flex-wrap: wrap;
+}
+
+.about, .holders-benefits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
 }
 
 .about img, .holders-benefits img {
-    width: 100px;
+    width: 130px;
     height: auto;
     display: block;
-    margin: 0 auto;
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+
+.about img:hover, .holders-benefits img:hover {
+    transform: scale(1.05);
+    filter: brightness(1.2);
 }
 
 .sample-artworks {
@@ -266,14 +282,10 @@ body {
 
     .about-holders-container {
         flex-direction: column;
-        gap: 10px;
+        gap: 15px;
     }
 
-    .about, .holders-benefits {
-        width: 100%;
-    }
-
-    .about-image, .holders-benefits-image {
+    .about img, .holders-benefits img {
         width: 120px;
     }
     
@@ -309,14 +321,13 @@ body {
     }
 
     .about-holders-container {
-        flex-direction: row;
-        flex-wrap: nowrap;
-        gap: 5px;
+        flex-direction: column;
+        gap: 10px;
     }
 
     .about img, .holders-benefits img {
-        width: 100px;
-        height: 100px;
+        width: 110px;
+        height: auto;
     }
     
     .sample-artworks {
