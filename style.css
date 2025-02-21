@@ -113,23 +113,23 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
     flex-wrap: nowrap;
+    margin: 3px 0;
+    padding: 3px 0;
 }
 
 .about, .holders-benefits {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.about:hover, .holders-benefits:hover {
-    transform: scale(1.05);
+    margin: 0;
+    padding: 0;
 }
 
 .about img, .holders-benefits img {
     width: 130px;
-    height: 50px;
+    height: 130px; 
     object-fit: contain;
     display: block;
     margin: 0;
