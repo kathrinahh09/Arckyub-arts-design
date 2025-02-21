@@ -150,7 +150,7 @@ body {
 }
 
 .about img, .holders-benefits img {
-    width: auto;
+    width: 100px;
     height: auto;
     display: block;
     margin: 0 auto;
