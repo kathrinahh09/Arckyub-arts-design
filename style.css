@@ -146,15 +146,14 @@ body {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    margin: 20px 0;
+    margin: 8px 0;
 }
 
 .about img, .holders-benefits img {
-    width: 130px;
-    height: 130px;
-    object-fit: contain;
+    width: 150px;
+    height: auto;
     display: block;
-    transition: transform 0.2s ease-in-out, filter 0.2s ease-in-out;
+    margin: 0 auto;
 }
 
 .sample-artworks {
