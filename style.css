@@ -137,7 +137,7 @@ body {
 }
 
 .about img:hover, .holders-benefits img:hover {
-    transform: scale(1.0);
+    transform: scale(0.6);
     filter: brightness(1.2);
 }
 
