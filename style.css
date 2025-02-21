@@ -113,16 +113,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    width: 100%;
-    max-width: 800px;
-    margin: 20px auto;
+    gap: 10px;
+    flex-wrap: nowrap;
 }
 
 .about, .holders-benefits {
-    flex: 1;
-    text-align: center;
-    transition: transform 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .about:hover, .holders-benefits:hover {
