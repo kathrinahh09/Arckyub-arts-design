@@ -128,8 +128,8 @@ body {
 }
 
 .about img, .holders-benefits img {
-    width: 130px;
-    height: 130px;
+    width: 430px;
+    height: 79px;
     object-fit: contain;
     display: block;
     margin: 0 auto;
