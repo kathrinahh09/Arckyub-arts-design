@@ -1,15 +1,18 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const aboutSection = document.querySelector(".about");
+    const sections = document.querySelectorAll(".about, .holders-benefits");
 
     function handleScroll() {
-        const sectionPosition = aboutSection.getBoundingClientRect().top;
         const screenPosition = window.innerHeight / 1.2;
 
-        if (sectionPosition < screenPosition) {
-            aboutSection.style.transform = "scale(1.05)"; /* Slight zoom when appearing */
-        } else {
-            aboutSection.style.transform = "scale(1)";
-        }
+        sections.forEach((section) => {
+            const sectionPosition = section.getBoundingClientRect().top;
+
+            if (sectionPosition < screenPosition) {
+                section.style.transform = "scale(1.05)";
+            } else {
+                section.style.transform = "scale(1)";
+            }
+        });
     }
 
     window.addEventListener("scroll", handleScroll);
