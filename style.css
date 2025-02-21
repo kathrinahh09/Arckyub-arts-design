@@ -157,11 +157,6 @@ body {
     transition: transform 0.2s ease-in-out, filter 0.2s ease-in-out;
 }
 
-.about img:hover, .holders-benefits img:hover {
-    transform: scale(1.05);
-    filter: brightness(1.2);
-}
-
 .sample-artworks {
     width: 90vw;
     max-width: 600px;
