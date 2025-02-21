@@ -162,7 +162,7 @@ body {
 }
 
 .about img, .holders-benefits img {
-    width: 150px;
+    width: 170px;
     height: auto;
     display: block;
     transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
@@ -292,7 +292,7 @@ body {
     }
 
     .about img, .holders-benefits img {
-        width: 140px;
+        width: 160px;
     }
     
     .sample-artworks {
@@ -338,7 +338,7 @@ body {
     }
 
     .about img, .holders-benefits img {
-        width: 130px;
+        width: 150px;
     }
     
     .sample-artworks {
